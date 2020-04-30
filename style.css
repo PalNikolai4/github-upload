@@ -1,0 +1,159 @@
+body {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+
+.margin_site {
+	margin: 0 auto;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.header {
+	width: 100%;
+	background-color: #445162;
+}
+
+.header:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.header-text {
+	color: #ffffff;
+	font-weight: 400;
+	float: left;
+}
+
+.header-h1 {
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+font-size: 60px;
+}
+
+.header-list {
+	margin: 10px 0 0 0;
+	padding: 0;
+	list-style-type: none;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 20px;
+	line-height: 36px;
+	left: 35px;
+}
+
+.header-list-item {
+position: relative;
+}
+
+.header-list-item:before {
+	content: "";
+	display: block;
+	width: 25px;
+	height: 19px;
+	position: absolute;
+	background-image: url(../img/check_icon.png);
+	background-size: cover;
+	top: 7px;
+	left: -35px;
+}
+
+.header-img {
+	display: block;
+	background-color: #fff;
+	float: right;
+}
+
+.About_product:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.About_product_text {
+	float: left;
+	width: 650px;
+	margin: 0 100px 0 0;
+}
+
+.h2_About_product {
+	color: #445161;
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.p1_About_product,
+.p2_About_product {
+color: #333333;
+font-size: 16px;
+line-height: 24px;
+}
+
+.About_product_video {
+	display: block; 
+	float: right; 
+}
+
+.Dignity_product {
+	min-height: 210px;
+	background-color: ##f5f5f5;
+	/* outline: 1px solid black; */
+	padding: 25px 25px 25px 30px;
+	/* Style for "Dignity an" */
+	color: #445161;
+}
+
+.Dignity_product_h2 {
+	display: block;
+	text-align: center;
+	margin: 0 0 15px 0;
+	font-size: 30px;
+	line-height: 18px;
+}
+
+	summary::-webkit-details-marker {
+	display: none;
+}
+
+	summary::after {
+	background: #445161;
+	content: "+";
+	color: #ffffff;
+	float: left;
+	font-weight: bolder;
+	margin: -36px 0 0 -21px;
+	text-align: center;
+	width: 16px;
+	height: 16px;
+}
+
+.Dignity1 {
+	float: left;
+}
+
+.Dignity2 {
+	float: right;
+}
+
+.Dignity1,
+.Dignity2 {
+	width: 49%;
+	position: relative;
+	color: #333333;
+}
+
+.Dignity_details {
+	/* outline: 1px solid #ccc; */
+	margin: 0 0 15px 0;
+	position: ;
+}
+
+.Dignity_details > p {
+	margin: 0;
+}
+
